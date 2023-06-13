@@ -12,7 +12,7 @@ while x <=5:
         elif type.upper() == "L":
             convert = float(weight) / 2.205
             print ("Your weight in Kg is: " + str(convert))
-        elif type.upper() != "K" or unit.upper() != "L":
+        elif type.upper() != "K" or type.upper() != "L":
             print ("Error, you have entered neither K or L.")
     x = x + 1
 
